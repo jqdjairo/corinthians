@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#6f7dff</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorSeconday">#FF6200EE</color>
+    <color name="colorError">#ED1C24</color>
+    <color name="warningColor">#e9b54a</color>
+    <color name="sucessColor">#39b54a</color>
+    <color name="colorBackground">#efefef</color>
+    <color name="black">#000000</color>
+    <color name="textColorDark">#1b1b1b</color>
+    <color name="textColor">#FFFFFFFF</color>
+    <color name="textColorNoContrast">#e1e1e1</color>
+
+    <!--    roxo simplify: 6F7DFF
+    vermelho dos buttons: ED1C24
+    verde dos buttons: 39B54A
+    laranja dos buttons: F7931E
+    buttons de seleção (selecionar dia das aulas, selecionar o documento p enviar,selecionar turma): E6E6E6
+    texto/icone de voltar: 1A1A1A-->
+</resources>

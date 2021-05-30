@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context=".estudante.HomeEstudante">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBackground"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="25sp"
+                android:text="@string/txtBemVindo" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:onClick="navegarPerfilAluno"
+        android:src="@drawable/profile_icon"
+        />
+
+    </RelativeLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:layout_gravity="center"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_marginTop="160dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:onClick="navegarHorarios"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/horarios"
+                        />
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/horarios"
+                        android:textAlignment="center"
+                        android:layout_marginTop="40dp"
+                        android:textSize="20sp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="@font/poppins_medium"
+
+                        >
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp"
+                android:onClick="navegarSolicitacao"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/solicitacoes"
+                        />
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="34dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/txtSolicitacoes"
+                        android:fontFamily="@font/poppins_medium"
+                        >
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp"
+                android:onClick="navegarServicos"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/servicos"
+                        />
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txtServicos"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="@font/poppins_medium"
+
+                        >
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:onClick="navegarQuiz"
+                android:layout_columnWeight="1"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/game"
+                        />
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txtQuiz"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="@font/poppins_medium"
+                        >
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

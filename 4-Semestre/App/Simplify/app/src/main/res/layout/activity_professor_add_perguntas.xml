@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".estudante.EstudanteEnvioDocumentos">
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:onClick="back"
+        android:strokeColor="#05FFFFFF"
+        android:text="Voltar"
+        android:textColor="@color/textColorDark"
+        app:cornerRadius="5sp"
+        app:icon="@drawable/back"
+        app:iconPadding="1sp"
+        app:iconSize="30sp"
+        app:iconTint="@color/textColorDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Titulo da pergunta"
+        android:textColor="@color/textColorDark"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVoltar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ly_1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/editText2"
+        android:layout_marginTop="9dp">
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_marginLeft="15dp"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Essa é a resposta um"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="25sp"
+            android:checked="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Essa é a resposta dois"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="25sp"
+            android:checked="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Essa é a resposta três"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="25sp"
+            android:checked="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Essa é a resposta quatrooo"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="25sp"
+            android:checked="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/colorSeconday"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Enviar pergunta"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/ly_1"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simplify</string>
+    <string name="horarios">Lessons board</string>
+    <string name="txtSolicitacoes">Track your requests</string>
+    <string name="txtAtencao">Pay attention</string>
+    <string name="titleInstrucoes">To avoid inconvenience we will give you some tips on how to take a photo show to be approved.</string>
+    <string name="txtInstrucoes">- Have a well-lit environment \\n- Take the picture on a flat surface (for example: a table) \\n- Check if the data is correct (name, photo, etc.)</string>
+    <string name="txtProsseguir">Next</string>
+    <string name="txtMatricula">Registration</string>
+    <string name="txtStatus2">Pending</string>
+    <string name="txtStatus1">Completed</string>
+    <string name="txtStatus3">Denied status</string>
+    <string name="txtDocumentosRestantes">Remaining documents:</string>
+    <string name="txrProfile">My Profile</string>
+    <string name="txtServicos">Services</string>
+    <string name="txtSolicitacao">Requisition</string>
+    <string name="txtUpload">Upload Documents</string>
+    <string name="txtBemVindo">Welcome</string>
+    <string name="turmas">Your classes</string>
+    <string name="txtLogin">Sign in with your account</string>
+    <string name="txtRa">Enter your RA</string>
+    <string name="txtSenha">Type your password</string>
+    <string name="txtCadastro">I don\'t have a registration ...</string>
+    <string name="txtEstudante">Student</string>
+    <string name="txtProfessor">Teacher</string>
+    <string name="txtPreLogin">Choose your access profile</string>
+    <string name="txtPesquisar">SEARCH</string>
+    <string name="txtPendente">pending</string>
+    <string name="txtDocumento">Document</string>
+    <string name="txtBaixar">Download</string>
+    <string name="txtMotivo">"It is not possible to read the document "</string>
+    <string name="txtAceitar">Accept</string>
+    <string name="txtNegar">Deny</string>
+    <string name="txtLogado">login as:</string>
+    <string name="txtListaAlunos">students</string>
+    <string name="txtValidacao">Validation</string>
+    <string name="txtFaculdade">University</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtCompleteAcesso">Finish your access</string>
+    <string name="txtPendencias">Pendencies</string>
+    <string name="etPendencias">Enter the student\'s name</string>
+</resources>

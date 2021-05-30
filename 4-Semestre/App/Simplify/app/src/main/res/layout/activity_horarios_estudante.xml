@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".estudante.HorariosEstudante"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/header_container"
+            >
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="#00FFFFFF"
+                android:onClick="back"
+                android:text="Voltar"
+                android:textColor="#000000"
+                app:icon="@drawable/back"
+                app:cornerRadius="5sp"
+                app:iconPadding="1sp"
+                app:iconSize="30sp"
+                app:iconTint="#000000"
+                app:layout_constraintHorizontal_bias="0.02"
+                android:strokeColor="#05FFFFFF" />
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/btnVoltar"
+                android:text="@string/horarios"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <Spinner
+                android:id="@+id/static_drop"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </Spinner>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pesquisar"
+                android:layout_margin="10dp"
+                android:id="@+id/btnPesquisarHorario"
+                android:layout_below="@id/static_drop"
+                ></Button>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/container_select"
+                android:layout_below="@id/btnPesquisarHorario"
+                android:layout_marginTop="20dp"
+                android:background="#DADADA">
+
+            </androidx.cardview.widget.CardView>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="1"
+                android:background="#f1f1f1"
+
+                android:rowCount="5"
+
+                android:layout_below="@id/container_select"
+                android:alignmentMode="alignMargins"
+                android:layout_marginTop="30dp"
+                android:columnOrderPreserved="false"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="@color/colorError"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="13:00 - Pesquisa e inovação"
+                        android:textSize="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textColor"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="@color/colorError"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="13:00 - Pesquisa e inovação"
+                        android:textSize="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textColor"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="@color/colorError"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="13:00 - Pesquisa e inovação"
+                        android:textSize="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textColor"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="@color/colorError"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="13:00 - Pesquisa e inovação"
+                        android:textSize="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textColor"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="@color/colorError"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="13:00 - Pesquisa e inovação"
+                        android:textSize="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textColor"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="@color/colorError"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="13:00 - Pesquisa e inovação"
+                        android:textSize="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textColor"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="15sp"
+                    android:backgroundTint="@color/colorError"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="13:00 - Pesquisa e inovação"
+                        android:textSize="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/textColor"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </GridLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

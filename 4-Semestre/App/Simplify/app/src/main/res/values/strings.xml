@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Simplify</string>
+
+    <string name="horarios">Quadro de horarios</string>
+
+    <string name="txtSolicitacoes">Acompanhe suas solicitações</string>
+
+    <string name="txtAtencao">Atenção !</string>
+
+    <string name="titleInstrucoes">Para evitar transtornos iremos te dar algumas dicas de como tirar uma foto show para ser aprovado.</string>
+
+    <string name="txtInstrucoes">- Tenha um ambiente bem iluminado\n- Tire a foto sobre uma superficie plana (por exemplo: uma mesa)\n- Confira se os dados estão corretos (nome, foto etc.)</string>
+
+
+    <string name="txtProsseguir">Prosseguir</string>
+    <string name="txtMatricula">Matricula</string>
+
+    <string name="txtStatus1">Status Concluido</string>
+    <string name="txtStatus2">Status Pendente</string>
+    <string name="txtStatus3">Status Negado</string>
+
+    <string name="txtDocumentosRestantes">Documentos restantes:</string>
+    <string name="txrProfile">Meu perfil</string>
+    <string name="txtHome" translatable="false">Home</string>
+    <string name="txtServicos">Serviços</string>
+    <string name="txtSolicitacao">Solicitações</string>
+    <string name="txtQuiz" translatable="false">Quiz</string>
+    <string name="txtUpload">Upload Documentos</string>
+    <string name="txtBemVindo">Seja Bem vindo</string>
+    <string name="turmas">Suas turmas</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtRa">Digite seu RA</string>
+    <string name="txtSenha">Digite sua senha</string>
+    <string name="txtCadastro">Não possuo cadastro...</string>
+    <string name="txtInstitucional" translatable="false">Institucional</string>
+    <string name="txtEstudante">Estudante</string>
+    <string name="txtProfessor">Professor</string>
+    <string name="txtPreLogin">Escolha o seu perfil de acesso</string>
+    <string name="txtBaixar">Baixar</string>
+    <string name="txtMotivo">Documento não legível</string>
+    <string name="txtAceitar">Aceitar</string>
+    <string name="txtNegar">Negar</string>
+    <string name="txtLogado">logado como:</string>
+    <string name="txtValidacao">Validação</string>
+    <string name="txtListaAlunos">Alunos</string>
+    <string name="txtFaculdade">Faculdade</string>
+    <string name="txtCompleteAcesso">Complete o seu acesso</string>
+    <string name="txtEmail">Email</string>
+
+    <string-array name="documentos">
+        <item>Comprovante de endereço</item>
+        <item>Documentos Responsáveis</item>
+        <item>CPF</item>
+        <item>Certificado Conclusão ensino médio</item>
+    </string-array>
+
+    <string-array name="diasSemana">
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+    </string-array>
+
+    <string-array name="turmas">
+        <item>CCO A</item>
+        <item>CCO B</item>
+        <item>ADS A</item>
+        <item>ADS B</item>
+    </string-array>
+
+    <string name="txtPesquisar">PESQUISAR</string>
+    <string name="txtPendente">pendente</string>
+    <string name="txtDocumento">Documento</string>
+    <string name="txtStatusDoc" translatable="false">Status</string>
+    <string name="txtPendencias">Pendências</string>
+    <string name="etPendencias">Digite o nome do aluno</string>
+</resources>

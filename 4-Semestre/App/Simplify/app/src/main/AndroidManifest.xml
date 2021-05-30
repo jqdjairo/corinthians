@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bandtec.simplify">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Simplify">
+        <activity android:name=".LoginInstitucional" />
+        <activity android:name=".HomeInstitucional" />
+        <activity android:name=".faculdade.FaculdadePendencias"></activity>
+        <activity android:name=".faculdade.FaculdadeListaAlunos" />
+        <activity android:name=".faculdade.FaculdadeValidacao" />
+        <activity android:name=".faculdade.HomeFaculdade" />
+        <activity android:name=".estudante.EstudanteEnvioDocumentos" />
+        <activity android:name=".estudante.CadastroEstudante" />
+        <activity android:name=".estudante.HorariosEstudante" />
+        <activity android:name=".estudante.ConsultaEstudante" />
+        <activity android:name=".estudante.ProfileEstudante" />
+        <activity android:name=".estudante.HomeEstudante" />
+        <activity android:name=".estudante.LoginEstudante" />
+        <activity android:name=".estudante.EstudanteServicos" />
+        <activity android:name=".estudante.EstudanteInstrucoes" />
+        <activity android:name=".estudante.EstudanteQuiz" />
+        <activity android:name=".estudante.QuizRanking" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

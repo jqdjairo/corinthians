@@ -1,0 +1,39 @@
+Create table aluno(
+idAluno int primary key identity (1,1),
+nome varchar (60) not null,
+ra varchar (25) not null,
+email varchar (60) not null,
+senha varchar (20) not null,
+cpf char (30) not null,
+rg char (30) not null,
+nomeResponsavel varchar (30),
+dataNascimento DATE,
+telefone varchar (30),
+foto varchar (100)
+);
+
+create table faculdade(
+idFaculdade int primary key identity (1,1),
+nome varchar(45)
+);
+
+create table professor(
+idProfessor int primary key identity (1,1),
+nome varchar (45),
+email varchar (45),
+senha varchar (30),
+pkFaculdade int foreign key references faculdade(idFaculdade)
+);
+
+create table quiz(
+idQuiz int primary key identity (1,1),
+questao verchar (45),
+opcao1 varchar (30),
+opcao2 varchar (30),
+opcao3 varchar (30),
+opcao4 varchar (30),
+opcao5 varchar (30),
+resposta int
+);
+
+

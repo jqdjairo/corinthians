@@ -1,0 +1,11 @@
+insert into aluno values 
+('oscar althausen', '01191082', 'oscar@email.com', '1234', '77777777777', '777777777','nenhum', '1995-04-29', '11977777777','foto')
+
+insert into faculdade values
+("bandtec");
+
+insert into professor values 
+('profteste','profteste@email.com','senha',1);
+
+insert into quiz values
+('questao aqui','resposta 1','resposta 2','resposta 3','resposta 4','resposta 5',1)
